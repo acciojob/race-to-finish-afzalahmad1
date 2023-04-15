@@ -12,6 +12,6 @@ for (let i = 0; i < 5; i++) {
   }));
 }
 Promise.any(promises).then(result => {
-  document.getElementById("output").innerHTML = `The first promise resolved with ${result} seconds.`;
+  document.getElementById("output").innerHTML = `${result}`;
 });
 
